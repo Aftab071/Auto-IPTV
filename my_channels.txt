@@ -12,7 +12,16 @@ Bangladesh | Movie Bangla | Bangla
 Bangladesh | NTV | Bangla
 Bangladesh | News 24 HD | Bangla
 Bangladesh | NRB TV | Bangla
-Bangla | * | Bangla
+Bangla | ATN News | Bangla
+Bangla | Banglavision | Bangla
+Bangla | Channel i HD | Bangla
+Bangla | Deepto TV | Bangla
+Bangla | Ekushey TV | Bangla
+Bangla | Enter10 Bangla | Bangla
+Bangla | Gazi TV HD | Bangla
+Bangla | Independent TV | Bangla
+Bangla | Jamuna TV | Bangla
+Bangla | Somoy TV | Bangla
 Hindi | Colors Cineplex HD | Hindi
 Hindi | Colors HD | Hindi
 Hindi | Goldmine | Hindi
