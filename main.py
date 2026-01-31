@@ -5,22 +5,24 @@ import re
 # আপনার সোর্স লিংক
 # ==========================================
 source_urls = [
-    "https://sonamul4545.vercel.app/siyam3535.m3u",
-    # আপনার অন্য কোনো লিংক থাকলে এখানে দিন, না থাকলে এই লাইন মুছে দিন
+    "https://sonamul4545.vercel.app/siyam3535.m3u"
 ]
 # ==========================================
 
 # আপনার পছন্দের সিরিয়াল
 group_priority = [
-    "Live Event",
     "Bangla",
+    "Live Event",
+    "Sports",
+    "India",
+    "Hindi"
 ]
 
 def generate_playlist():
     specific_map = {}
     wildcard_map = {}
     
-    # Header যোগ করা হলো যাতে সার্ভার ব্লক না করে
+    # ইউজার এজেন্ট (যাতে সার্ভার ব্লক না করে)
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
@@ -35,7 +37,9 @@ def generate_playlist():
                 
                 parts = line.split("|")
                 if len(parts) == 3:
-                    src_group = parts[0].strip().lower()
+                    # ছোট/বড় হাতের অক্ষর সমস্যা এড়াতে .lower() ব্যবহার করছি না গ্রুপের নামে,
+                    # যাতে হুবহু মিলতে পারে। তবে সেইফটির জন্য স্ট্রিপ করছি।
+                    src_group = parts[0].strip() 
                     src_name = parts[1].strip().lower()
                     target_group = parts[2].strip()
 
@@ -48,7 +52,7 @@ def generate_playlist():
         print("Error: 'my_channels.txt' file not found!")
         return
 
-    print(f"Tracking {len(specific_map)} specific channels and {len(wildcard_map)} dynamic groups.")
+    print(f"Wildcard Rules Found: {wildcard_map}")
 
     all_channels = []
     found_keys = set()
@@ -65,29 +69,40 @@ def generate_playlist():
                     line = lines[i].strip()
                     
                     if line.startswith("#EXTINF"):
+                        # গ্রুপ টাইটেল বের করা
                         group_match = re.search(r'group-title="([^"]*)"', line)
                         name_raw = line.split(',')[-1].strip()
                         
-                        if group_match and name_raw:
-                            current_group = group_match.group(1).strip().lower()
+                        if group_match:
+                            # সোর্স থেকে গ্রুপ নাম হুবহু নিচ্ছি
+                            current_group = group_match.group(1).strip()
                             current_name = name_raw.strip().lower()
                             
                             new_target_group = None
                             
-                            # চেক: নির্দিষ্ট চ্যানেল নাকি ওয়াইল্ডকার্ড?
+                            # ১. নাম দিয়ে খোঁজা
                             if (current_group, current_name) in specific_map:
                                 new_target_group = specific_map[(current_group, current_name)]
+                            
+                            # ২. ওয়াইল্ডকার্ড (*) দিয়ে খোঁজা (আপনার ক্ষেত্রে এটি কাজ করবে)
+                            # আমরা case-insensitive ম্যাচ করার চেষ্টা করব
                             elif current_group in wildcard_map:
                                 new_target_group = wildcard_map[current_group]
+                            # যদি হুবহু না মিলে, ছোট হাতের অক্ষরে চেক করব
+                            else:
+                                for w_group in wildcard_map:
+                                    if w_group.lower() == current_group.lower():
+                                        new_target_group = wildcard_map[w_group]
+                                        break
                             
                             if new_target_group:
                                 unique_key = (current_group, current_name, new_target_group)
                                 
                                 if unique_key not in found_keys:
-                                    # গ্রুপ নাম পরিবর্তন
+                                    # গ্রুপের নাম পরিবর্তন করে নতুন গ্রুপ বসানো
                                     modified_line = re.sub(r'group-title="[^"]*"', f'group-title="{new_target_group}"', line)
                                     
-                                    # লিংকের লাইন বের করা
+                                    # লিংক খোঁজা
                                     link_line = ""
                                     if i + 1 < len(lines) and not lines[i+1].startswith("#"):
                                         link_line = lines[i+1].strip()
@@ -102,7 +117,11 @@ def generate_playlist():
         except Exception as e:
             print(f"Error checking source: {e}")
 
-    # ৩. সাজানো (Sorting)
+    # ৩. চ্যানেল না পেলে এরর দেখানো
+    if not all_channels:
+        print("WARNING: No channels found! Check group names in my_channels.txt")
+
+    # ৪. সাজানো (Sorting)
     def sort_key(channel):
         grp = channel["group"]
         if grp in group_priority:
@@ -111,7 +130,7 @@ def generate_playlist():
 
     all_channels.sort(key=sort_key)
 
-    # ৪. ফাইল সেভ করা (এটিই আপনার ডিলিট হওয়া ফাইল ফিরিয়ে আনবে)
+    # ৫. ফাইল সেভ করা
     with open("my_playlist.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for ch in all_channels:
