@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138759_5800_CTB_ND_fc-web_1766641251700.jpg" group-title="Live Event",Canterbury vs Northern Districts (Super Smash, 2025-26)
+https://bd-mc-fdlive.fancode.com/mumbai/138762_english_hls_ca9a13406282789_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Icons-Series-Golf_2026_FC-Web.jpg" group-title="Live Event",Day 1 vs Bangkok (Icons of Football, 2026)
+https://bd-mc-fdlive.fancode.com/mumbai/140136_english_hls_03471c5e7053101_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png" group-title="Live Event",Day 1 - Table 1 vs Chennai (Dream Sports Championship Table Tennis 2026)
+https://bd-mc-fdlive.fancode.com/mumbai/140309_english_hls_56d9655fd950618_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png" group-title="Live Event",Day 1 - Table 2 vs Chennai (Dream Sports Championship Table Tennis 2026)
+https://bd-mc-fdlive.fancode.com/mumbai/140330_english_hls_801a6b020b28841_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png" group-title="Live Event",Day 1 - Table 3 vs Chennai (Dream Sports Championship Table Tennis 2026)
+https://bd-mc-fdlive.fancode.com/mumbai/140329_english_hls_4a364dcc6012120_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png" group-title="Live Event",Day 1 - Table 4 vs Chennai (Dream Sports Championship Table Tennis 2026)
+https://bd-mc-fdlive.fancode.com/mumbai/140328_english_hls_d4b56037b620347_1ta-di_h264/index.m3u8
 #EXTINF:-1 group-title="Bangla", Deepto TV
 Https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-video=1692000.m3u8
 #EXTINF:-1 group-title="Bangla", ATN News
@@ -9,18 +21,8 @@ Https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/1715-audio_113452_eng=113200-vid
 Https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/1704-audio_113342_eng=113200-video=1692000.m3u8
 #EXTINF:-1 group-title="Bangla", Somoy TV
 Https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=1998800.m3u8
-#EXTINF:-1 group-title="Bangla", Zee Bangla HD
-Http://172.16.29.2:8090/hls/ZeeBanglaHD.m3u8
-#EXTINF:-1 group-title="Bangla", Zee Bangla Cinema HD
-http://172.16.29.2:8090/hls/ZeeBanglaCinemaHD.m3u8
-#EXTINF:-1 group-title="Bangla", Colors Bangla HD
-http://172.16.29.2:8090/hls/ColorsBanglaHD.m3u8
 #EXTINF:-1 group-title="Bangla", Jamuna TV
 http://172.16.29.2:8090/hls/JamunaTV.m3u8
-#EXTINF:-1 group-title="Bangla", Star Jalsha HD
-http://172.16.29.2:8090/hls/StarJalshaHD.m3u8
-#EXTINF:-1 group-title="Bangla", Jalsha Movies HD
-http://172.16.29.2:8090/hls/JalshaMoviesHD.m3u8
 #EXTINF:-1 group-title="Bangla", Gazi TV HD
 http://172.16.29.2:8090/hls/gazitvhd.m3u8
 #EXTINF:-1 group-title="Bangla", Channel i HD
@@ -71,3 +73,67 @@ http://116.204.149.16/nagorik/tracks-v1a1/mono.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nrb-eu.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://i.postimg.cc/hvcWR1Yz/Somoy-TV.jpg",Somoy TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 group-title="Sports", FanCode BD
+Https://bd-mc-fdlive.fancode.com/mumbai/138767_english_hls_843d7c911b99616_1ta-di_h264/1080p5.m3u8
+#EXTINF:-1 group-title="Sports", T Sports HD
+Http://172.16.29.2:8090/hls/tsportshd.m3u8
+#EXTINF:-1 group-title="Sports", A Sports HD
+Http://172.16.29.2:8090/hls/ASportsHD.m3u8
+#EXTINF:-1 group-title="Sports", Star Sports 2 HD
+http://172.16.29.2:8090/hls/StarSports2HD.m3u8
+#EXTINF:-1 group-title="Sports", DD Sports
+http://172.16.29.2:8090/hls/ddsports.m3u8
+#EXTINF:-1 group-title="Sports", Star Sports Select 1 HD
+http://172.16.29.2:8090/hls/StarSportsSelect1HD.m3u8
+#EXTINF:-1 group-title="Sports", Sony Ten 5 HD
+http://172.16.29.2:8090/hls/SonyTen5HD.m3u8
+#EXTINF:-1 group-title="Sports", Willow Cricket HD
+http://172.16.29.2:8090/hls/willowcrickethd.m3u8
+#EXTINF:-1 group-title="Sports", Star Sports 1 HD
+http://172.16.29.2:8090/hls/StarSports1HD.m3u8
+#EXTINF:-1 group-title="Sports", Sony Ten 3 HD
+http://172.16.29.2:8090/hls/SonyTen3hd.m3u8
+#EXTINF:-1 group-title="Sports", Euro Sports HD
+http://172.16.29.2:8090/hls/eurosportshd.m3u8
+#EXTINF:-1 group-title="Sports", Star Sports Select 2 HD
+http://172.16.29.2:8090/hls/StarSportsSelect2HD.m3u8
+#EXTINF:-1 group-title="Sports", Sony Ten 1 HD
+http://172.16.29.2:8090/hls/SonyTen1hd.m3u8
+#EXTINF:-1 group-title="Hindi", Goldmine
+Https://cdn-2.pishow.tv/live/1459/1459_1.m3u8
+#EXTINF:-1 group-title="Hindi", Sony Max HD
+Http://172.16.29.2:8090/hls/sonymaxhd.m3u8
+#EXTINF:-1 group-title="Hindi", Star Plus HD
+http://172.16.29.2:8090/hls/StarPlusHD.m3u8
+#EXTINF:-1 group-title="Hindi", Zee TV HD
+http://172.16.29.2:8090/hls/ZeeTVHD.m3u8
+#EXTINF:-1 group-title="Hindi", Colors HD
+http://172.16.29.2:8090/hls/ColorsHD.m3u8
+#EXTINF:-1 group-title="Hindi", Sony Aath
+http://172.16.29.2:8090/hls/SonyAtth.m3u8
+#EXTINF:-1 group-title="Hindi", Sony TV HD
+http://172.16.29.2:8090/hls/SonyHD.m3u8
+#EXTINF:-1 group-title="Hindi", Zee Cinema HD
+http://172.16.29.2:8090/hls/ZeeCinemaHD.m3u8
+#EXTINF:-1 group-title="Hindi", Star Gold HD
+http://172.16.29.2:8090/hls/StarGoldHD.m3u8
+#EXTINF:-1 group-title="Hindi", Star Movies HD
+http://172.16.29.2:8090/hls/StarMoviesHD.m3u8
+#EXTINF:-1 group-title="Hindi", Colors Cineplex HD
+Http://172.16.29.2:8090/hls/ColorsCineplexHD.m3u8
+#EXTINF:-1 group-title="Kolkata Bangla", Zee Bangla HD
+Http://172.16.29.2:8090/hls/ZeeBanglaHD.m3u8
+#EXTINF:-1 group-title="Kolkata Bangla", Zee Bangla Cinema HD
+http://172.16.29.2:8090/hls/ZeeBanglaCinemaHD.m3u8
+#EXTINF:-1 group-title="Kolkata Bangla", Colors Bangla HD
+http://172.16.29.2:8090/hls/ColorsBanglaHD.m3u8
+#EXTINF:-1 group-title="Kolkata Bangla", Star Jalsha HD
+http://172.16.29.2:8090/hls/StarJalshaHD.m3u8
+#EXTINF:-1 group-title="Kolkata Bangla", Jalsha Movies HD
+http://172.16.29.2:8090/hls/JalshaMoviesHD.m3u8
+#EXTINF:-1 group-title="Music", Sangeet Bangla
+Http://172.16.29.2:8090/hls/SangeetBangla.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/pLG976s5/Sangeet-Bangla.jpg",Sangeet Bangla
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2906.ts
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.postimg.cc/pLG976s5/Sangeet-Bangla.jpg",Sangeet Bangla
+http://103.140.254.2:3500/live/740.m3u8
