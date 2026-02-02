@@ -81,3 +81,8 @@ Link5 | Bangla | Bijoy TV | Bangla
 Link5 | Bangla | NEXUS TV | Bangla
 Link5 | Bangla | Mohona TV | Bangla
 Link5 | Bangla | Drama 24 | Bangla
+Link5 | News | Channel 24 | Bangla
+Link5 | News | DBC News | Bangla
+Link5 | News | Ekhon TV | Bangla
+Link5 | News | News 24 BD | Bangla
+Link5 | News | Ekattor TV | Bangla
