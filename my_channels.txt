@@ -60,3 +60,24 @@ Link4 | India🇮🇳 | Sony Yay | Hindi
 Link4 | India🇮🇳 | Sony Sab | Hindi
 Link4 | India🇮🇳 | Star Gold | Hindi
 Link4 | India🇮🇳 | Star Gold HD | Hindi
+Link5 | Bangla | BTV World | Bangla
+Link5 | Bangla | BTV CTG | Bangla
+Link5 | Bangla | RTV | Bangla
+Link5 | Bangla | ATN Bangla | Bangla
+Link5 | Bangla | ETV | Bangla
+Link5 | Bangla | Maasranga TV | Bangla
+Link5 | Bangla | Desh TV | Bangla
+Link5 | Bangla | Boishakhi TV | Bangla
+Link5 | Bangla | Channel 9 | Bangla
+Link5 | Bangla | Asian TV | Bangla
+Link5 | Bangla | SA TV | Bangla
+Link5 | Bangla | Duronto TV | Bangla
+Link5 | Bangla | Bangla TV | Bangla
+Link5 | Bangla | BTV NATIONAL HD | Bangla
+Link5 | Bangla | Ananda TV | Bangla
+Link5 | Bangla | My TV | Bangla
+Link5 | Bangla | Global TV | Bangla
+Link5 | Bangla | Bijoy TV | Bangla
+Link5 | Bangla | NEXUS TV | Bangla
+Link5 | Bangla | Mohona TV | Bangla
+Link5 | Bangla | Drama 24 | Bangla
