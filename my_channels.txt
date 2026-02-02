@@ -18,15 +18,15 @@ Bangla | ATN News | Bangla
 Bangla | Banglavision | Bangla
 Bangla | Independent TV | Bangla
 Bangla | Somoy TV | Bangla
-Bangla | Zee Bangla HD | Bangla
-Bangla | Zee Bangla Cinema HD | Bangla
-Bangla | Colors Bangla HD | Bangla
+Bangla | Zee Bangla HD | Kolkata
+Bangla | Zee Bangla Cinema HD | Kolkata
+Bangla | Colors Bangla HD | Kolkata
 Bangla | Jamuna TV | Bangla
-Bangla | Star Jalsha HD | Bangla
-Bangla | Jalsha Movies HD | Bangla
+Bangla | Star Jalsha HD | Kolkata
+Bangla | Jalsha Movies HD | Kolkata
 Bangla | Gazi TV HD | Bangla
 Bangla | Channel i HD | Bangla
-Bangla | Enter10 Bangla | Bangla
+Bangla | Enter10 Bangla | Kolkata
 Hindi | Goldmine | Hindi
 Hindi | Sony Max HD | Hindi
 Hindi | Star Plus HD | Hindi
