@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 group-title="Admin Info" tvg-logo="https://i.ibb.co/hRvpjD8/telegram-logo.png", OWNER: Aftab071
+https://t.me/aftab071
+#EXTINF:-1 group-title="Admin Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png", Join Telegram: Aftaahi IPTV
+https://t.me/aftaahi_iptv
+#EXTINF:-1 group-title="My Uploads" tvg-logo="https://i.ibb.co/hRvpjD8/telegram-logo.png", Justice For Hadi
+https://archive.org/download/osman-hadi-kazi-nazrul-is-4/%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8%20%E0%A6%9D%E0%A7%9C%E0%A6%BE%20%E0%A6%86%E0%A6%AC%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A5%A4%20%E0%A6%95%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%9F%E0%A6%BE%20%E0%A6%AF%E0%A7%87%E0%A6%A8%20%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0%20%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A6%A4%E0%A6%BE%20%E0%A6%AA%E0%A7%87%E0%A6%B2%E0%A5%A4%20Osman%20Hadi%20_%20Kazi%20Nazrul%20Is%284.mp4
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png" group-title="Live Event",Day 3 vs Asian Rifle & Pistol Championship (Asian Rifle & Pistol Championship 2026)
 https://bd-mc-fdlive.fancode.com/mumbai/140321_english_hls_0866837ebd87086_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg" group-title="Live Event",Emirates Blues Vs Fujairah
