@@ -3,12 +3,12 @@
 https://t.me/aftaahi_iptv
 #EXTINF:-1 group-title="Admin Info" tvg-logo="https://i.ibb.co/hRvpjD8/telegram-logo.png", Admin : Aftab Uddin
 https://t.me/aftaahi
-#EXTINF:-1 tvg-name="Sri Lanka A Women Vs New Zealand A Women [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1778255679175.png" group-title="Live Event",Sri Lanka A Women Vs New Zealand A Women [LIVE]
-https://bd-mc-plive.fancode.com/mumbai/142510_english_hls_65f3be4ba685626_1ta-di_h264/1080p.m3u8?hdntl=Expires=1778921046~_GO=Generated~acl=/mumbai/142510_english_hls_65f3be4ba685626_1ta-di_h264/*~Signature=AQoI29KdNoEWVX5ZJTlGCjzNG0NsZSAJloFV-B1rrPlzCSv8djc-5h167-sZY6FO89EIZyLNKnrguQnw_tu0lklwfMsM
-#EXTINF:-1 tvg-name="Adelaide United Vs Auckland [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Adelaide-United-vs-Auckland_fc-web.jpg" group-title="Live Event",Adelaide United Vs Auckland [LIVE]
-https://bd-mc-fblive.fancode.com/mumbai/142506_english_hls_1fb9ed2a0355588_1ta-di_h264/1080p.m3u8
 #EXTINF:-1 tvg-name="Catalonia Gp [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/MONSTER_CATALUNYA_fc-web.jpg" group-title="Live Event",Catalonia Gp [LIVE]
-https://bd-mc-fblive.fancode.com/mumbai/139942_english_hls_ebf51c020a40261_1ta-di_h264/1080p5.m3u8
+https://bd-mc-plive.fancode.com/mumbai/139942_english_hls_ebf51c020a40261_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1778929091~_GO=Generated~acl=/mumbai/139942_english_hls_ebf51c020a40261_1ta-di_h264/*~Signature=AQoI29LhRNzbEG_bJCtM_t0DA9KTVaSFHtyxG9k7Sprrhe3MYTc7Ne6kEWQc1OMEeklrIBRCA0kRWTWQzfEgNRrcFZMA
+#EXTINF:-1 tvg-name="Men's Doubles Qf [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Internazionali-BNL-d'Italia_fc-web.jpg" group-title="Live Event",Men's Doubles Qf [LIVE]
+https://bd-mc-fblive.fancode.com/mumbai/142707_english_hls_79953af20c88877_1ta-di_h264/1080p.m3u8
+#EXTINF:-1 tvg-name="Day 2 [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Amundi-German-Masters_fc-web.jpg" group-title="Live Event",Day 2 [LIVE]
+https://bd-mc-fblive.fancode.com/mumbai/142326_english_hls_61fdd11ca799887_1ta-di_h264/1080p.m3u8
 #EXTINF:-1 tvg-logo="https://tvassets.roarzone.info/images/8.png" group-title="Bangla", Deepto TV
 Https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-video=1692000.m3u8
 #EXTINF:-1 tvg-logo="https://tvassets.roarzone.info/images/49.png" group-title="Bangla", ATN News
