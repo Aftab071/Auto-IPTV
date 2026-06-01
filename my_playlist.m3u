@@ -3,12 +3,8 @@
 https://t.me/aftaahi_iptv
 #EXTINF:-1 group-title="Admin Info" tvg-logo="https://i.ibb.co/hRvpjD8/telegram-logo.png", Admin : Aftab Uddin
 https://t.me/aftaahi
-#EXTINF:-1 tvg-name="Leganés Vs Mirandés [LIVE]" tvg-logo="https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_APP.png" group-title="Live Event",Leganés Vs Mirandés [LIVE]
-https://bd-mc-fblive.fancode.com/mumbai/143172_english_hls_6966768ce795850_1ta-di_h264/1080p.m3u8
-#EXTINF:-1 tvg-name="J. Fonseca Vs C. Ruud [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/RG_Casper-Ruud-vs-Joao-Fonseca_FC-WEB.jpg" group-title="Live Event",J. Fonseca Vs C. Ruud [LIVE]
-https://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780350249~acl=%2f*~id=aa835d35-3932-425a-adf7-3d432882dd4e~data=hdntl~hmac=c569767913404ea56906e0780c87920ef906cdb9c87335534af61b6cd49fa1f1/master_4500.m3u8?aka_me_session_id=AAAAAAAAAAAp%2fR1qAAAAALECMqmdn3otEhvH1qltPBE6BLX4tk3PiRSYbyuZ1PweZ+dXcPLoNrf8%2fCfdHdJQaijIFQquR+9%2f&aka_media_format_type=hls
-#EXTINF:-1 tvg-name="Top Seeds In Action [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg" group-title="Live Event",Top Seeds In Action [LIVE]
-https://sonypartnersdaimenew.akamaized.net/hls/live/2022317/ROLENG/hdntl=exp=1780350252~acl=%2f*~id=2f1ba330-3604-48e4-9fb2-462f8bc9a8f3~data=hdntl~hmac=28b215e464e5d03a269f769f7e4aa46965a20267a12b3c16ea712329ef91e5bf/master_4500.m3u8?aka_me_session_id=AAAAAAAAAAAs%2fR1qAAAAAOcahXElqCGM3bDDMQRPNdZ1pwZkLLUhtOy8LGSTKKx1nxq9Hyd6DJKxSeU27WjX5bkH5VOlBuy7&aka_media_format_type=hls
+#EXTINF:-1 tvg-name="Band E Amir Region Vs Amo Region [LIVE]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg" group-title="Live Event",Band E Amir Region Vs Amo Region [LIVE]
+https://bd-mc-fblive.fancode.com/mumbai/142752_english_hls_c6c0ae4e2927340_1ta-di_h264/1080p.m3u8
 #EXTINF:-1 tvg-logo="https://tvassets.roarzone.info/images/8.png" group-title="Bangla", Deepto TV
 Https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-video=1692000.m3u8
 #EXTINF:-1 tvg-logo="https://tvassets.roarzone.info/images/49.png" group-title="Bangla", ATN News
